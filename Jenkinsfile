@@ -17,7 +17,7 @@ pipeline {
     PROD_PIPELINE_EXECUTION_ROLE = 'arn:aws:iam::043576882669:role/aws-sam-cli-managed-prod-pip-PipelineExecutionRole-YKXCCZM2CZR6'
     PROD_CLOUDFORMATION_EXECUTION_ROLE = 'arn:aws:iam::043576882669:role/aws-sam-cli-managed-prod-CloudFormationExecutionR-1U209BZ4E8MS'
     PROD_ARTIFACTS_BUCKET = 'aws-sam-cli-managed-prod-pipeline-artifactsbucket-1ivovi9osf4rf'
-    // If there are functions with "Image" PackageType in your template,
+    // If there are functions with "Image"  PackageType in your template,
     // uncomment the line below and add "--image-repository ${PROD_IMAGE_REPOSITORY}" to
     // prod "sam package" and "sam deploy" commands.
     // PROD_IMAGE_REPOSITORY = '0123456789.dkr.ecr.region.amazonaws.com/repository-name'
